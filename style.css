@@ -1,0 +1,53 @@
+body
+{
+    background-position:center;
+    background-size:cover;
+}
+
+img 
+{
+    border-radius:20px;
+    width:20%;
+    height:20%;
+}
+
+h3
+{
+    width:80%;
+    height:7%;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    font-family:bolder;
+    color:black;
+}
+
+h3
+{
+  font-size: 25px !important;
+}
+canvas {
+  border:5px solid rgb(255, 255, 255);
+  border-radius:20px;
+
+}
+
+button
+{
+    width:30%;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite
+}
+
+@keyframes example
+{
+    from{box-shadow: 5px 5px 50px red;}
+    to{box-shadow:5px 5px 50px purple;}
+}
